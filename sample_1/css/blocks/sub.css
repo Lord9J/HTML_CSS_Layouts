@@ -1,0 +1,126 @@
+.sub {
+    position: relative;
+    height: 220px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.sub a {
+    color: #FFF;
+}
+
+.sub-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-con1 {
+    max-height: 104px;
+}
+
+.sub-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 57px;
+}
+
+.sub-heading+* {
+    margin-top: 10px;
+}
+
+.sub-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 0.8;
+    max-width: 509px;
+    margin-bottom: 57px;
+}
+
+.sub-con2-email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 578px;
+    height: 60px;
+    background-color: #FFF;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+
+.sub-input {
+    margin-left: 35px;
+    width: 300px;
+    height: 35px;
+    color: #000000;
+}
+
+.sub-input :placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.3;
+
+}
+
+.sub-select {
+    color: #000000;
+}
+
+.button3,
+a.button3 {
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 44px;
+    padding-right: 44px;
+    border-radius: 20px;
+    background: linear-gradient(91.24deg, #FFFFFF -151.39%, #CF088C 39.72%, #CF088C 60.99%, #CF088C 80.28%, #FFFFFF 231.81%);
+    max-width: 143px;
+
+    transition: color 0.2s ease;
+}
+
+.button3:hover {
+    opacity: 0.8;
+}
+
+.sub-con2-email-list {
+    margin-top: 30px;
+    width: 578px;
+    height: 50px;
+    margin-bottom: 41px;
+}
+
+.sub-con2-email-list ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    opacity: 0.9;
+}
+
+.sub-con2-email-list ul+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter';
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    opacity: 0.6;
+}
+
+.sub-con2-email-list li {
+    text-align: center;
+}

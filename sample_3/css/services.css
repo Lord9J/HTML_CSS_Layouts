@@ -1,0 +1,119 @@
+.services {}
+
+.services::after {
+    margin-top: 151px;
+    content: '';
+    display: block;
+    position: relative;
+    height: 1px;
+    background: linear-gradient(270deg, #69B99D 0%, rgba(204, 244, 230, 0.34) 100%);
+    margin-bottom: 190px;
+}
+
+
+.services__flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.services__info {
+    text-align: center;
+    max-width: 523px;
+    margin: 0 auto;
+}
+
+
+
+.services__servs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+
+}
+
+.services__serv {
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+    margin-left: 32px;
+    max-width: 352px;
+   
+    position: relative;
+}
+.services__serv::after{
+    position: absolute;
+    content: '';
+    display: block;
+    height: 4px;
+    background: #69B99D;
+    width: 100%;
+    bottom:0;
+    
+}
+
+.services__thumb {
+    margin-top: 58px;
+    margin-bottom: 24px;
+}
+
+.services__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0F241D;
+    margin-bottom: 12px;
+}
+
+
+.services__desc {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #767676;
+    padding-left: 48px;
+    padding-right: 48px;
+    margin-bottom: 37px;
+}
+
+.services__desc_info {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #0F241D;
+}
+
+.services__clr{
+    color: #69B99D;
+}
+
+
+@media screen and (max-width:800px){
+    .services__info{
+        max-width: fit-content;
+    }
+
+    .services__servs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .services__serv{
+        max-width: fit-content;
+        margin-left: 0;
+    }
+    .services__desc {
+        text-align: left;
+        padding: 0;
+    }
+
+    .services::after {
+        margin-bottom: 160px;
+    }
+
+}

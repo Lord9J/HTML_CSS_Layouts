@@ -1,0 +1,81 @@
+.prem {
+    margin-top: 130px;
+}
+
+.prem-cont {
+    text-align: center;
+}
+
+.prem-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.prem-text  {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.9;
+   
+}
+
+.prem-text p {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 966px;
+}
+
+.prem-block-icons {
+    display: flex;
+    position:absolute;
+    margin-top: 64px;
+}
+.-prem-block-img {
+    width: 430px;
+    margin-left: 27px;
+}
+.-prem-block-img image{
+    z-index: -1;
+}
+
+
+.prem-blocks {
+    margin-top: 112px;
+    display: flex;
+}
+
+.prem-block {
+    max-width: 430px;
+    height: 240px;
+    background: linear-gradient(225deg, rgba(212, 8, 140, 0.7) 14.64%, rgba(204, 8, 140, 0.7) 17.47%, rgba(133, 7, 138, 0.7) 47.17%, rgba(89, 6, 137, 0.7) 68.39%, rgba(72, 6, 137, 0.7) 79%);
+    border-radius: 30px;
+    padding-top: 60px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.prem-block-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.prem-block-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}

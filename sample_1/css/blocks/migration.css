@@ -1,0 +1,87 @@
+.migration {
+    margin-top: 130px;
+}
+
+.mig-con1 {
+    text-align: center;
+}
+
+.mig-con1-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.mig-con1-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+
+.mig-row{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+.mig-con2{
+    margin-top: 177px;
+}
+
+.mig-con2-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.mig-con2-text {
+    max-width: 555px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    opacity: 0.9;
+    margin-bottom: 55px;
+}
+
+.button6,
+a.button6 {
+    color: #fff;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 36px;
+    padding-right: 36px;
+    background: linear-gradient(225deg, #D4088C 14.64%, #CC088C 17.47%, #85078A 47.17%, #590689 68.39%, #480689 79%);
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    transition: color 0.2s ease;
+}
+
+.button6:hover {
+    opacity: 0.8;
+}
+
+.mig-con2-img {
+    z-index: -1;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mig-con2-img image{
+    height: 100%;
+    width: 100%;
+}
+

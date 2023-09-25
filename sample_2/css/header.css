@@ -1,0 +1,150 @@
+.header {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    transition: .2s linear;
+    padding-bottom: 20px;
+    z-index: 999;
+}
+
+.header-activ{
+    background: #0E1D28;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+
+.header-logo {}
+
+.header-logo-link {}
+
+.header-nav {}
+
+
+
+.header-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-item {
+    margin-right: 82px;
+}
+
+.header-item :last-child {
+    margin-right: 0px;
+}
+
+.header-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.header-link:hover,.header-link:focus,.header-link:active {
+    opacity: .75;
+}
+
+
+.header-burger {
+    display:none;
+    width: 40px;
+    height: 20px;
+    position: relative;
+}
+.burger {
+
+}
+.burger-line {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    left: 0;
+}
+
+.burger-line-one {
+    top: 0;
+}
+.burger-line-two {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.burger-line-three {
+    bottom: 0;
+}
+
+
+/* MEDIA START  */
+@media screen and (max-width:766px){
+    .header-burger{
+        display: block;
+    }
+    .header-wrapper{
+        margin-top: 35px;
+    }
+    .header-nav{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        padding: 75px;
+        transform: translateX(100%);
+        transition:.2s all linear;
+        background-color: #0E1D28;
+    }
+    .header-nav-activ{
+        transform: translateX(0);
+    }
+    .header-item{
+        width:100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .header-item:last-child{
+        margin-bottom: 0;
+    }
+    .header-link{
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .header-nav-close {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 11;
+    }
+    .header-nav-close-line {
+        width: 100%;
+        display: block;
+        background-color: white;
+        height: 2px;
+        position:absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .header-nav-close-line:first-child{
+        transform: translateY(-50%) rotate(45deg);
+    }
+    .header-nav-close-line:last-child{
+        transform: translateY(-50%) rotate(-45deg);
+    }
+}
+
+@media screen and (max-width:500px){
+   .header-nav{
+    padding: 75px 30px;
+   }
+}
+/* MEDIA END  */

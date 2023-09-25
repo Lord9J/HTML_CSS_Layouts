@@ -1,0 +1,116 @@
+@import "./reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+
+.header{
+    min-height: 135px;
+    /* background-color: aqua; */
+}
+.header a{
+    color: #FFFFFF;
+}
+.h-content{
+    max-width: 597px;
+}
+
+
+/* ИНФО */
+.h-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    column-gap: 80px;
+    height: 26px;
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    word-spacing: 5px;
+}
+.h-info ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.h-info img{
+    align-items: center;
+    margin-right: 5px;
+}
+.h-info-item{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+/* ИНФО */
+
+/*Навигация*/
+.h-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-nav{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;    
+}
+.nav-nav ul{
+    display: flex;
+}
+.nav-nav li+li{
+    margin-left: 31px;
+}
+.nav-nav a{
+    transition: color 0.2s ease;
+}
+.nav-nav a:hover{
+    color:#CF088C;
+}
+/*Навигация*/
+
+/* Поиск */
+.nav-search > * + *{
+    margin-left: 20px;
+}
+/* Поиск */
+
+/*Логин*/
+.nav-login {
+    margin-right: 25px;
+}
+.nav-login > * + * {
+    margin-left: 15px;
+}
+
+.button, a.button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 20px;
+    background: linear-gradient(91.24deg, #FFFFFF -151.39%, #CF088C 39.72%, #CF088C 60.99%, #CF088C 80.28%, #FFFFFF 231.81%);
+    max-width: 40px;
+    transition: color 0.2s ease;
+}
+.button:hover{
+    opacity: 0.8;
+}
+
+/*Логин*/
+
+

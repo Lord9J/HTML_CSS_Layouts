@@ -1,0 +1,67 @@
+.home {
+    position:relative;
+    padding-top: 190px;
+    padding-bottom: 260px;
+    min-height:704px;
+}
+.home a{
+    color: #fff;
+}
+.home-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-content {
+    max-width: 615px;
+}
+.home-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
+.home-heading + *{
+    margin-top: 30px;
+}
+.home-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    opacity: 0.8;
+}
+.home-text + *{
+    margin-top: 30px;
+}
+.home-buttons  > * + * {
+    margin-left: 15px;
+}
+.button2, a.button2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 20px;
+    border: 1px solid #FFFFFF;
+    max-width: 40px;
+    transition: color 0.2s ease;
+}
+.button2::after{
+    opacity: 0.8;
+}
+
+.home-bg-image {
+    z-index: -1;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.home-bg-image image{
+    height: 100%;
+    width: 100%;
+}

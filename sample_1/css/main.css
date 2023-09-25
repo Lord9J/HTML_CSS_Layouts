@@ -1,0 +1,35 @@
+@import "./reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root{
+    --container-width: 1330px;
+    --container-padding:15px;
+    --purpre:gradient(91.24deg, #FFFFFF -151.39%, #CF088C 39.72%, #CF088C 60.99%, #CF088C 80.28%, #FFFFFF 231.81%);
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    height: 6823px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(134.41deg, rgba(3, 9, 29, 0.95) 13.47%, #132059 56.64%, #03091D 90.93%);
+}
+
+.none{ 
+    display: none !important;
+}
+
+.container{
+    max-width: var(--container-width);
+    /* padding:0 var(--container-padding); */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block{
+    height: 200px;
+    background-color:brown;
+}
